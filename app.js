@@ -11,8 +11,6 @@ const gradients = [
 
 const navLinks = document.querySelectorAll('a');
 
-console.log(document.querySelectorAll('.decorate'))
-
 let options = {
     root: null,
     threshold: 0.7
@@ -28,11 +26,13 @@ let changeClass = (entries, observer) => {
                 if(link.dataset.page === entry.target.className) {                   
                     link.style.background = gradients[entry.target.dataset.index];
                     link.style.backgroundClip = "text";
+                    link.style.webkitBackgroundClip = "text";
                     link.style.webkitTextFillColor = "transparent";
 
                 } else {
                     link.style.background = "#000";
                     link.style.backgroundClip = "text";
+                    link.style.webkitBackgroundClip = "text";
                     link.style.webkitTextFillColor = "transparent";
                 }                 
             });
