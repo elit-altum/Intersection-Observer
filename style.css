@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat';
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    width: 100vw;
+}
+
+nav {
+    background-color: #f7f7f7;
+    min-width: 8vh;
+    padding: 1.8rem;
+    height: auto;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    background: linear-gradient(to bottom right, #12c2e9, #c471ed, #f64f59);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    color: #000;
+} 
+
+.nav-links ul li a{
+    text-decoration: none;
+    padding: 0 2rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: 0.3s all ease-out;
+}
+
+section {
+    width: 100vw;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section h2 {
+    color: #fff;
+    font-size: 4rem;
+}
+
+.about-page {
+    background: linear-gradient(to top, #f85032, #e73827);
+}
+
+.projects-page {
+    background: linear-gradient(to right, #f79d00, #64f38c);
+}
+
+.contact-page {
+    background: linear-gradient(to right, #e96443, #514452);
+}
+
+.services-page {
+    background: linear-gradient(to top right, #2980b9, #6dd5fa, #ffffff);
+}
