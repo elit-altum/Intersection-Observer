@@ -42,9 +42,9 @@ nav {
     justify-content: space-between;
     list-style-type: none;
     color: #000;
-} 
+}
 
-.nav-links ul li a{
+.nav-links ul li a {
     text-decoration: none;
     padding: 0 2rem;
     font-weight: 500;
