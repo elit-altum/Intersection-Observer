@@ -10,7 +10,7 @@ const gradients = [
 ]
 
 // Stores all the nav anchors
-const navLinks = document.querySelectorAll('a');
+const navLinks = document.querySelectorAll('li a');
 
 // Object which help the observer compare the elements.
 // Compares all elements with the standard viewport (null) and trigger the callback when 70% 

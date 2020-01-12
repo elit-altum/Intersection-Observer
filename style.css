@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     overflow-x: hidden;
     font-family: 'Montserrat';
@@ -17,8 +21,8 @@ header {
 
 nav {
     background-color: #f7f7f7;
-    min-width: 8vh;
-    padding: 1.8rem;
+    min-width: 5vh;
+    padding: 1rem;
     height: auto;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
     display: flex;
@@ -54,15 +58,16 @@ nav {
 
 section {
     width: 100vw;
-    height: 98vh;
+    height: 99vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-section h2 {
+a section h2 {
     color: #fff;
     font-size: 4rem;
+    z-index: 999;
 }
 
 .about-page {
